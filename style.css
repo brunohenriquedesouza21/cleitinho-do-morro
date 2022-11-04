@@ -1,0 +1,81 @@
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+}
+
+body{
+
+    background-color: rgb(59, 59, 59);
+}
+@font-face {
+    font-family: 'delinda';
+    src: url('Delinda Agatha.otf') format('opentype');
+    font-weight: normal;
+    font-weight: normal;
+}
+.cabe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    border-top: 0.6px solid rgb(0, 94, 255);
+    border-bottom: 0.6px solid rgb(0, 91, 248);
+    margin-bottom: 10px;
+}
+.me{ display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 0.6px solid rgb(0, 94, 255);
+
+}
+.parteum{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 50px;
+    text-align: center;
+
+}
+.partedois{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 50px;
+    text-align: center;
+}
+.partetres{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 50px;
+    text-align: center;
+
+}
+.imagem1{
+    max-width: 290px;
+    max-height: 290px;
+    border-style: dotted;
+    border-width: 0PX;
+
+}
+.frase{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
